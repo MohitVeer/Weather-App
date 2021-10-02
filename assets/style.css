@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(255, 239, 183);
+    background: linear-gradient(170deg, rgba(255, 239, 183, 1) 19%, rgba(247, 243, 124, 1) 31%, rgba(242, 225, 191, 1) 41%, rgba(214, 254, 237, 1) 63%, rgba(253, 218, 243, 1) 81%);
+    background-attachment: fixed;
+}
+
+/* form layout */
+
+form {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    padding: 40px 40px 60px;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* ################# HEADING City Name #################  */
+ 
+label {
+    font-family: 'Cantarell';
+    color: #00688C;
+    /* text-align: center; */
+    margin-top: 16% !important;
+    margin-right: 3rem;
+    /* font-weight: 700; */
+    /* letter-spacing: -3px; */
+} 
+
+/* ##################### SPAN TAGS  ###################### */
+
+input {
+    text-align: left;
+    margin-top: 80px;
+}
+
+input[type="text"] {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #d3d3d3;
+    border-radius: 0;
+    font-size: 20px;
+    color: #000;
+}
+
+/* ################ NEXT BUTTON ################### */
+
+ .btn{
+    text-align: left;
+    margin-left: 9rem;
+    margin-top: 20px;
+    padding: 5px 15px;
+    background-color: #1E7B9C ;
+    color: #fff;
+}
+
+/* ################ FOCUS SECTION ##############  */
+
+input:focus {
+    border-color: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
